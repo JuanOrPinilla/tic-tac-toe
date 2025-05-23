@@ -6,6 +6,12 @@
     margin: 0.8vh;
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.75);
     border: none;
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+}
+
+.Square:hover{
+    background-color: #3f1e1e;
+    transform: translateY(-4px);
 }
 
 .o-icon{

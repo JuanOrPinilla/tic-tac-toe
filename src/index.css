@@ -21,11 +21,8 @@ code {
 }
 
 
-.h2-gray {
-  margin: 0;
-}
-
 .h2-gray{
+    margin: 0;
     font-size: 1.8vh;
     color: #B7B7B7;
 }

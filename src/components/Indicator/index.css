@@ -12,3 +12,21 @@
     justify-content: center;
     margin-bottom: 0.5vh;
 }
+
+.turn-icon-o{
+    width: 3.5vh;
+    padding-top: 1vh;
+    transform: translateX(-50%);
+}
+
+.turn-icon-x{
+    width: 3.5vh;
+    transform: translateX(-40%);
+}
+
+.h2-gray-turn{
+    padding-top: 0.5vh;
+    transform: translateX(-15%);
+    font-size: 2vh;
+    color: #B7B7B7;
+}

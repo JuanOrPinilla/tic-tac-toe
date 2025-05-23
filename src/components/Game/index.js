@@ -9,6 +9,13 @@ import Reset from '../Reset';
  
 export default function Game() {
   const [turn, setTurn] = useState('O');
+  const [winner, setWinner] = useState(null);
+  const [isTie, setIsTie] = useState(false);
+  const [tablero, setTablero] = useState([
+    ['', '', ''],
+    ['', '', ''],
+    ['', '', '']
+  ]);
 
   return (
     <div className='game'>
@@ -17,10 +24,18 @@ export default function Game() {
           <img className='indicator-icon-o' src='./assets/small_blue_O.png' alt='Icon' />
           <img className='indicator-icon-x' src='./assets/small_beige_x.png' alt='Icon' />
         </div>
-        <div className='center'><Indicator /></div>
+        <div className='center'><Indicator turn={turn} /></div>
         <div className='right'><Reset /></div>
         </div>
-        <Board turn={turn} setTurn={setTurn} />
+        <Board 
+            turn={turn}
+            setTurn={setTurn}
+            tablero={tablero}
+            setTablero={setTablero}
+            winner={winner}
+            setWinner={setWinner}
+            setIsTie={setIsTie}
+          />
         <div className='row'>
             <J1 />
             <Tie />

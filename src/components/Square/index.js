@@ -1,16 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 
-export default function Square({ turn, setTurn }) {
-  const [value, setValue] = useState(null);
-
-   const handleClick = () => {
-    if (value !== null) return; 
-
-    setValue(turn);
-    setTurn(prev => (prev === 'O' ? 'X' : 'O')); 
-  };
-
+export default function Square({ value, onClick }) {
   const getIcon = () => {
     if (value === 'O') {
       return <img src='./assets/blue_circle.png' alt='O' className='o-icon' />;
@@ -21,8 +12,10 @@ export default function Square({ turn, setTurn }) {
   };
 
   return (
-      <div>
-        <button className='Square' onClick={handleClick}>{getIcon()}</button>
-      </div>
+    <div>
+      <button className='Square' onClick={onClick}>
+        {getIcon()}
+      </button>
+    </div>
   );
 }
