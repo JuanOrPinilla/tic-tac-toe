@@ -7,3 +7,13 @@
     box-shadow: 0 7px 12px rgba(0, 0, 0, 0.75);
     border: none;
 }
+
+.o-icon{
+    width: 10vh;
+    height: 10vh;
+}
+
+.x-icon{
+    width: 10vh;
+    height: 10vh;
+}
