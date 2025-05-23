@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+One&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik One', sans-serif;
+  background-color: #461F1F;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Rubik One', sans-serif;
+}
+
+.h1-bg{
+    padding-top: 0.5vh;
+    font-size: 1.8vh;
+    color: #512929;
+}
+
+.h2-bg{
+    font-size: 3vh;
+    color: #512929;
+}
+
+
+.h2-gray {
+  margin: 0;
+}
+
+.h2-gray{
+    font-size: 2vh;
+    color: #B7B7B7;
+}
+
+h1, h2 {
+  margin: 0;
 }

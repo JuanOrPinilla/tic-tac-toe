@@ -1,0 +1,9 @@
+.Square {
+    width: 16vh;
+    height: 16vh;
+    border-radius: 2vh;
+    background-color: #512929;
+    margin: 0.8vh;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.75);
+    border: none;
+}
