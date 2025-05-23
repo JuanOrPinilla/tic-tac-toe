@@ -1,0 +1,20 @@
+.reset-button{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 1vh;
+    border: none;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.6);
+    margin-top: 0.8vh;
+    margin-right: 0.8vh;
+    margin-left: 0.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5vh;
+    background-color: #B7B7B7 ;
+}
+
+.reset-icon{
+    height: 3vh;
+    width: 3vh;
+}

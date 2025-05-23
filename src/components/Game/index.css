@@ -1,4 +1,44 @@
 .row{
-    display: flex;
-    
+    display: flex; 
 }
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info {
+    padding-top: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 0.5vh;
+  position: relative;
+}
+
+.game-info .center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.game-info .left {
+    transform: translateX(-50%);
+}
+
+.game-info .right {
+    transform: translateX(70%);
+}
+
+.indicator-icon-o{
+    width: 4vh;
+    height: 4vh;
+}
+.indicator-icon-x{
+    width: 4vh;
+    height: 4vh;
+    padding-bottom: 0.2vh;
+}
+
